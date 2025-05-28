@@ -1,12 +1,11 @@
-#  finding factorial
+#  Finding factorial of a number:
 
 num  = int(input("Enter the num: "))
-factorial = 1
 
-if(num == 0):
-    print(f"Factorial = {factorial}")
+if num == 0 or num == 1:
+    print(f"Factorial of {num} = 1")
 else:
-    for num in range (num,1,-1):
-        factorial =  num * (num-1)
+    for i in range (num-1,1,-1):
+        num *= i
         
-    print(f"Factorial = {factorial}")
+    print(f"Factorial of given number = {num}")
