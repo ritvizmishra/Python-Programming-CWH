@@ -1,6 +1,6 @@
 #  Reading a file line by line.
 
-file = open("poem.txt")
+file = open("Files/poem.txt")
 line = file.readline()
 
 while(line != ""):

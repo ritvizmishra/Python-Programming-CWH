@@ -1,6 +1,6 @@
 # Find out whether file has a certain word:
 
-with open("twinkle.txt") as poem:
+with open("Files/twinkle.txt") as poem:
     text = poem.read().lower()
     if "twinkle" in text:
         print("yes it contains twinkle")

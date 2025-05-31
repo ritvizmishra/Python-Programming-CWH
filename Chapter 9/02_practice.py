@@ -9,7 +9,7 @@ def game():
     print(f"Your score is {userScore}")
     
     # Fetching current high score
-    with open("hi-score.txt") as file:
+    with open("Files/hi-score.txt") as file:
         currentHighScore = file.read()
         if currentHighScore != "":
             currentHighScore = int(currentHighScore)
@@ -18,7 +18,7 @@ def game():
     
     # Updating the high score
     if currentHighScore < userScore:
-        with open("hi-score.txt", "w") as content:
+        with open("Files/hi-score.txt", "w") as content:
             content.write(f"{userScore}")
     
     return userScore  

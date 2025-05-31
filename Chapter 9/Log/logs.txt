@@ -1,0 +1,19 @@
+[2025-05-31 10:15:43] INFO - User login successful - user_id=19423
+[2025-05-31 10:16:01] DEBUG - Executed script: data_cleaner.py
+[2025-05-31 10:16:12] ERROR - Connection timeout while fetching data from API
+[2025-05-31 10:16:35] INFO - Running python pipeline: transform_data.py
+[2025-05-31 10:16:57] WARNING - High memory usage detected: 85%
+[2025-05-31 10:17:15] DEBUG - Python version used: 3.10.5
+[2025-05-31 10:17:30] INFO - User logout - user_id=19423
+[2025-05-31 10:18:01] INFO - Data export completed - rows=15324
+[2025-05-31 10:18:22] INFO - Scheduled job started: python_etl_runner.py
+[2025-05-31 10:18:45] ERROR - Python module not found: 'pandas'
+[2025-05-31 10:19:05] DEBUG - Retry attempt 1 for API call
+[2025-05-31 10:19:27] INFO - Loaded config file: /etc/app/config.yaml
+[2025-05-31 10:19:46] DEBUG - python script executed: analyze_metrics.py
+[2025-05-31 10:20:11] WARNING - Deprecated function used in model_builder.py
+[2025-05-31 10:20:34] INFO - Model training started using python backend
+[2025-05-31 10:21:01] ERROR - Invalid data format in line 2374
+[2025-05-31 10:21:22] INFO - Model accuracy: 91.3%
+[2025-05-31 10:21:45] DEBUG - Python logging initialized with verbose level
+[2025-05-31 10:22:03] INFO - Email report sent to admin@example.com

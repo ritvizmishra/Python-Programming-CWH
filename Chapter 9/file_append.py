@@ -2,7 +2,7 @@
 
 str = "\n\nFound absolutely zero motivation from the above poem."
 
-file = open("poem.txt", "a")
+file = open("Files/poem.txt", "a")
 file.write(str)
 file.close()
 
