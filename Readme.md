@@ -23,7 +23,12 @@
   - Using Python as a Calculator  
   - Comments  
   - Types of Comments  
-  - **Practice Set**  
+  - **Practice Set**
+      1. [Print "Twinkle Twinkle Little Star" poem](Chapter%201/01_practice.py)  
+      2. [Use REPL to print the table of 5](Chapter%201/02_practice.py)  
+      3. [Install and use an external module](Chapter%201/03_practice.py)  
+      4. [Print contents of a directory using `os`](Chapter%201/04_practice.py)  
+      5. [Label the program with comments](Chapter%201/05_practice.py)
 
 - [**Chapter 2 – Variables and Datatype**](Chapter%202)  
   - Data Types  
@@ -32,20 +37,34 @@
   - `type()` Function and Typecasting  
   - `input()` Function  
   - **Practice Set**  
+      1. [Add two numbers](Chapter%202/01_practice.py)  
+      2. [Find remainder](Chapter%202/02_practice.py)  
+      3. [Check variable type from input](Chapter%202/03_practice.py)  
+      4. [Comparison using operator](Chapter%202/04_practice.py)
 
 - [**Chapter 3 – Strings**](Chapter%203)  
   - String Slicing  
   - Slicing With Skip Value  
   - String Functions  
   - Escape Sequence Characters  
-  - **Practice Set**  
+  - **Practice Set**
+      1. [User input + Good Afternoon message](Chapter%203/01_practice.py)  
+      2. [Fill letter template with name and date](Chapter%203/02_practice.py)  
+      3. [Detect double space](Chapter%203/03_practice.py)  
+      4. [Replace double space with single](Chapter%203/04_practice.py)  
+      5. [Format letter with escape characters](Chapter%203/05_practice.py) 
 
 - [**Chapter 4 – Lists And Tuples**](Chapter%204)  
   - List Indexing  
   - List Methods  
   - Tuples in Python  
   - Tuple Methods  
-  - **Practice Set**  
+  - **Practice Set**
+      1. [Store 7 fruits in list](Chapter%204/01_practice.py)  
+      2. [Sort marks of 6 students](Chapter%204/02_practice.py)  
+      3. [Check immutability of tuple](Chapter%204/03_practice.py)  
+      4. [Sum list with 4 numbers](Chapter%204/04_practice.py)  
+      5. [Count zeros in tuple](Chapter%204/05_practice.py)  
 
 - [**Chapter 5 – Dictionary & Sets**](Chapter%205)  
   - Properties of Python Dictionaries  
@@ -54,6 +73,15 @@
   - Properties of Sets  
   - Operations on Sets  
   - **Practice Set**  
+      1. [Hindi-English dictionary lookup](Chapter%205/01_practice.py)  
+      2. [Input 8 numbers, show unique](Chapter%205/02_practice.py)  
+      3. [Set with 18 and '18'](Chapter%205/03_practice.py)  
+      4. [Find length of set with numbers and string](Chapter%205/04_practice.py)  
+      5. [Type of empty curly braces](Chapter%205/05_practice.py)  
+      6. [Favorite language dictionary](Chapter%205/06_practice.py)  
+      7. [Duplicate names in dictionary](Chapter%205/07_practice.py)  
+      8. [Duplicate languages in dictionary](Chapter%205/08_practice.py)  
+      9. [List inside set - valid?](Chapter%205/09_practice.py)
 
 - [**Chapter 6 – Conditional Expression**](Chapter%206)  
   - `if`, `else` and `elif` in Python  
@@ -83,7 +111,15 @@
   - Functions with Arguments  
   - Default Parameter Value  
   - Recursion  
-  - **Practice Set** 
+  - **Practice Set**
+      1. [Greatest of three numbers](Chapter%208/01_practice.py)  
+      2. [Celsius to Fahrenheit](Chapter%208/02_practice.py)  
+      3. [Prevent print newline](Chapter%208/03_practice.py)  
+      4. [Sum of first n natural numbers](Chapter%208/04_practice.py)  
+      5. [Print triangle pattern](Chapter%208/05_practice.py)  
+      6. [Inch to cm converter](Chapter%208/06_practice.py)  
+      7. [Remove and strip word from list](Chapter%208/07_practice.py)  
+      8. [Multiplication table with function](Chapter%208/08_practice.py)
 
 - [**Project 1: Snake, Water, Gun Game**](Project%201)  
 
