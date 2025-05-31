@@ -150,12 +150,57 @@
   - **Practice Set**  
 
 - [**Project 3: Jarvis**](Project%203)  
-  - Features  
-  - Workflow  
-  - Libraries Used  
+  - **Description**  
+    Jarvis is a voice-activated virtual assistant designed to perform a variety of tasks including web browsing, music playback, fetching news, and answering user queries using OpenAI's GPT-3.5-turbo model.
+  
+  - **Features**  
+    - Voice recognition using `speech_recognition`, activated by the wake word "Jarvis"
+    - Text-to-speech using `pyttsx3` for offline and `gTTS` with `pygame` for online
+    - Web browsing support (Google, YouTube, LinkedIn, Facebook)
+    - Music playback via a custom `musicLibrary` module
+    - Fetches and reads headlines using NewsAPI
+    - Integrates with OpenAI to generate intelligent responses
+    - Acts like a personal assistant similar to Alexa or Google Assistant
+  
+  - **Workflow**  
+    1. Initializes and greets user with “Initializing Jarvis...”
+    2. Listens for wake word “Jarvis”  
+    3. Upon activation, acknowledges with “Ya”
+    4. Processes the voice command (open websites, play music, get news, or GPT-based query)
+    5. Responds via speech using selected TTS engine
+    
+  - **Libraries Used**  
+    - `speech_recognition`  
+    - `webbrowser`  
+    - `pyttsx3`  
+    - `gTTS`  
+    - `pygame`  
+    - `requests`  
+    - `musicLibrary`  
+    - `openai`  
+    - `os`
 
 - [**Project 4: Auto Reply AI Chatbot**](Project%204)  
-  - Description  
-  - Features  
-  - Workflow  
-  - Libraries Used  
+  - **Description**  
+    An AI-powered chatbot named *RizbyViz* that interacts with users through a chat app. It copies chat history, analyzes the context, and generates humorous roast-style replies using OpenAI’s GPT-3.5-turbo.
+
+  - **Features**  
+    - Automated mouse and keyboard interaction using `pyautogui`
+    - Analyzes copied chat history to determine the last sender (e.g., "Rohan Das")
+    - Generates funny AI replies using GPT-3.5-turbo
+    - Clipboard operations using `pyperclip`
+    - End-to-end chat message automation
+    
+  - **Workflow**  
+    - Opens the chat application (e.g., Chrome-based)
+    - Copies chat history using mouse selection and clipboard
+    - Checks if the last message is from the target user
+    - Sends chat history to OpenAI for a humorous response
+    - Copies and pastes the generated reply in the chat input field
+    - Sends the message by simulating Enter key press
+  
+  - **Libraries Used**  
+    - `pyautogui`  
+    - `time`  
+    - `pyperclip`  
+    - `openai`
