@@ -14,7 +14,6 @@ class Train:
         
     # Get status of the seats
     def getStatus(self):
-        seats = 200
         print(f"Number of available seats are {randint(150, 300)}.")
         
     # Get fare information
