@@ -1,8 +1,8 @@
 '''
 ## Think of `self` and `value` like Boxes
 
-| Box Name | What's Inside?             | Used As              |
-|----------|-----------------------------|----------------------|
+| Box Name | What's Inside?              | Used As                |
+|----------|-----------------------------|------------------------|
 | `self`   | First number (object `m`)   | You're inside this one |
 | `value`  | Second number (object `n`)  | The one you're adding  |
 

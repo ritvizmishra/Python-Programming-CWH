@@ -7,3 +7,7 @@ Suddenly, with the force of seventeen invisible cheese slices, the great Snorkle
 Chaos ensued as someone sneezed in interpretive Morse code. The trees began speaking backward in sarcasm, and a unicorn accountant filed taxes for a jellybean. By dusk, the only thing left standing was a confused toaster asking for directions.
 
 Moral of the story? Never juggle pineapples during a cosmic sneeze contest.R
+                 This is updated using multiple context manager in Ch 12.
+                 
+                 This is updated using multiple context manager in Ch 12.
+                 
