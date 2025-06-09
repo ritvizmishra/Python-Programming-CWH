@@ -9,4 +9,4 @@ sq_numbers = [(item, item ** 2) for item in numbers]
 print(sq_numbers)
 
 cube_numbers = [(n, n**3) for n in range(11)]
-print(f"\n{cube_numbers}")
+print(f"{cube_numbers}")
