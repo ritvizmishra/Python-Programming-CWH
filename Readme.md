@@ -187,10 +187,10 @@
 
 - [**Project 3: Jarvis**](Project%203)  
   - **Description**  
-    Jarvis is a voice-activated virtual assistant designed to perform a variety of tasks including web browsing, music playback, fetching news, and answering user queries using OpenAI's GPT-3.5-turbo model.
+    Vizion is a voice-activated virtual assistant designed to perform a variety of tasks including web browsing, music playback, fetching news, and answering user queries using OpenAI's GPT-3.5-turbo model.
   
   - **Features**  
-    - Voice recognition using `speech_recognition`, activated by the wake word "Jarvis"
+    - Voice recognition using `speech_recognition`, activated by the wake word "Vizion"
     - Text-to-speech using `pyttsx3` for offline and `gTTS` with `pygame` for online
     - Web browsing support (Google, YouTube, LinkedIn, Facebook)
     - Music playback via a custom `musicLibrary` module
@@ -199,9 +199,9 @@
     - Acts like a personal assistant similar to Alexa or Google Assistant
   
   - **Workflow**  
-    1. Initializes and greets user with “Initializing Jarvis...”
-    2. Listens for wake word “Jarvis”  
-    3. Upon activation, acknowledges with “Ya”
+    1. Initializes and greets user with “Initializing Vizion...”
+    2. Listens for wake word “Vizion”  
+    3. Upon activation, acknowledges with “Hello”
     4. Processes the voice command (open websites, play music, get news, or GPT-based query)
     5. Responds via speech using selected TTS engine
     
