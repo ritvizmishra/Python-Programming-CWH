@@ -1,0 +1,34 @@
+VOICE-ACTIVATED VIRTUAL ASSISTANT: VIZION
+
+Description:
+- VIZION (Ritviz's vision) is a voice-activated virtual assistant designed to perform tasks such as web browsing, music, fetching news, and responding to user queries using OpenAI's GPT-3.5-turbo model.
+
+Repository:
+- The link to the repository: [https://github.com/ritvizmishra/VIZION-VA]
+
+Features:
+- Voice recognition using speech_recognition, activated by the wake word "Vizion"
+- Text-to-speech using pyttsx3 for offline and gTTS with pygame for online
+- Web browsing support (Google, YouTube, LinkedIn, Facebook)
+- Music playback via a custom musicLibrary module
+- Fetches and reads headlines using NewsAPI
+- Integrates with OpenAI to generate intelligent responses
+- Acts like a personal assistant similar to Alexa or Google Assistant
+
+Workflow:
+- Initializes and greets user with “Initializing Vizion...”
+- Listens for wake word “Vizion”
+- Upon activation, acknowledges with “Hello”
+- Processes the voice command (open websites, play music, get news, or GPT-based query)
+- Responds via speech using selected TTS engine
+
+Libraries Used: 
+- speech_recognition
+- webbrowser
+- pyttsx3
+- gTTS
+- pygame
+- requests
+- musicLibrary
+- openai
+- os
